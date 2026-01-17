@@ -1,0 +1,17 @@
+name: Supabase Keep Alive
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # runs daily
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase
+        run: |
+          curl -X GET \
+          -H "Authorization: Bearer YOUR_REAL_PUBLISHABLE_KEY" \
+
+          https://skdldrfgdjklhclwbovp.supabase.co/functions/v1/keep-alive
