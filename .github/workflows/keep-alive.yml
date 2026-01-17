@@ -1,6 +1,0 @@
-steps:
-  - name: Ping Supabase
-    run: |
-      curl -X GET \
-        -H "apikey: sb_publishable_XXXXX" \
-        https://skdldrfgdjklhclwbovp.supabase.co/functions/v1/keep-alive
