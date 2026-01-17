@@ -1,0 +1,5 @@
+yaml: |
+  curl -f -X GET \
+    -H "apikey: sb_publishable_57SR_9-HOpfu8YSmpAsbAw_zkonYAbS" \
+    -H "Authorization: Bearer sb_publishable_57SR_9-HOpfu8YSmpAsbAw_zkonYAbS" \
+    https://skdldrfgdjklhclwbovp.supabase.co/functions/v1/keep-ali
